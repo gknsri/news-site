@@ -1,0 +1,101 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style>
+        /***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /
+textarea {overflow:auto;}
+
+/***** RESET *****/
+
+        .hepsi { width:980px; height:auto; margin:10px auto;}
+        .banner { width:980px; height:150px; margin:10px auto 0 auto;}
+        #menudis { width:100%; height:45px; background:url(images/menu.png);}
+        .menu { width:980px; height:45px; margin:0 auto;}
+        #surmanset { width:980px; height:200px;}
+        #slider {width:980px; height:300px; margin:10px 0 0 0;}
+        #ortasol { width:670px; height:510px; float:left;margin:10px 0 0 0; }
+        #ortasag { width:300px; height:510px; float:left; margin:10px 0 0 10px;}
+        #reklam1 { width:300px; height:250px;}
+        #reklam2 { width:300px; height:250px; margin:10px 0 0 0;}
+        .kategoribaslik { width:980px; height:30px; float:left; margin:10px 0 0 0;}
+        #kategorihaberleri, #kategorihaberleri1, #kategorihaberleri2, #kategorihaberleri3, #kategorihaberleri4, #kategorihaberleri5, #kategorihaberleri6, #kategorihaberleri7, #kategorihaberleri8, #kategorihaberleri9{ width:980px; height:150px; margin:5px 0 0 0 ; float:left;}
+         
+         
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="banner"></div>
+        <div id="menudis">
+    <div class="menu">
+        <ul>
+            <li><a href="">TÜRKÝYE</a></li>
+            <li><a href="">DÜNYA</a></li>
+            <li><a href="">EKONOMÝ</a></li>
+            <li><a href="">SPOR</a></li>
+            <li><a href="">SAÐLIK</a></li>
+            <li><a href="">TEKNOLOJÝ</a></li>
+            <li><a href="">OTOMOBÝL</a></li>
+            <li><a href="">SANAT</a></li>
+            <li><a href="">YAÞAM</a></li>
+            <li><a href="">EÐÝTÝM</a></li>
+
+        </ul>
+
+    </div>
+            </div>
+        <div class="hepsi">
+    <div id="surmanset"></div>
+    <div id="slider"></div>
+    <div id="ortasol"></div>
+    <div id="ortasag">
+        <div id="reklam1"></div>
+        <div id="reklam2"></div>
+
+    </div>
+    <div class="kategoribaslik"></div>
+    <div id="kategorihaberleri"></div>
+        <div class="kategoribaslik"></div>
+    <div id="kategorihaberleri1"></div>
+        <div class="kategoribaslik"></div>
+    <div id="kategorihaberleri2"></div>
+        <div class="kategoribaslik"></div>
+    <div id="kategorihaberleri3"></div>
+        <div class="kategoribaslik"></div>
+    <div id="kategorihaberleri4"></div>
+        <div class="kategoribaslik"></div>
+    <div id="kategorihaberleri5"></div>
+        <div class="kategoribaslik"></div>
+    <div id="kategorihaberleri6"></div>
+        <div class="kategoribaslik"></div>
+    <div id="kategorihaberleri7"></div>
+        <div class="kategoribaslik"></div>
+    <div id="kategorihaberleri8"></div>
+        <div class="kategoribaslik"></div>
+    <div id="kategorihaberleri9"></div>
+
+    </div>
+    </form>
+</body>
+</html>
